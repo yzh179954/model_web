@@ -1,0 +1,14 @@
+/build/
+/dist/
+/nbproject/
+/*.zip/classes/
+*.patch
+*.war
+/classes/
+/.idea
+hs_err_pid*.log
+target/*
+/WebRoot/WEB-INF/classes/
+/bin/
+logs/*
+#/src/main/*
