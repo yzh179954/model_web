@@ -4,6 +4,8 @@
 package com.web.service;
 
 
+import javax.annotation.Resource;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,13 +28,12 @@ public class UserService {
 	 private UserMapper userMapper;
 
 	public User getUserById(Integer id) {
-//		User user = new User();
-//		user.setId(1);
-//		user.setPassword("ssssssssss");
-//		user.setUsername("yzh");
-//		return userDao.getById(1);
-		return userMapper.selectByPrimaryKey(id);
+		User user = new User();
+		user.setId(1);
+		user.setPassword("ssssssssss");
+		user.setUsername("yzh");
 //		return user;
+		return userMapper.selectByPrimaryKey(id);
 	}
 
 }
